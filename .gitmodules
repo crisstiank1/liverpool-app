@@ -4,3 +4,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/crisstiank1/liverpool-backend
+[submodule "database"]
+	path = database
+	url = https://github.com/Emmasu7/liverpool-db.git
