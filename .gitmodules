@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/crisstiank1/liverpool-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/crisstiank1/liverpool-backend
