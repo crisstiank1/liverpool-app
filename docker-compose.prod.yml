@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  mysql:
+    ports:
+      - "3306:3306"
+
+  backend:
+    command: sh -c "npm ci && npm run start"
+    ports:
+      - "5000:5000"
+
+  frontend:
+    command: sh -c "npm ci && npm run build && npm run preview"
+    ports:
+      - "5173:5173"
+
+  nginx:
+    ports:
+      - "80:80"

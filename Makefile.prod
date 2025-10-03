@@ -1,0 +1,9 @@
+# Atajos de producción
+prod-up:
+	./start.sh
+
+prod-down:
+	./stop.sh
+
+prod-status:
+	./status.sh
